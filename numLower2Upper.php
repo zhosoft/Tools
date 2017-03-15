@@ -3,7 +3,6 @@
 
 /**
  *  小写金额转大写金额 
- * 
  */
 function numLower2Upper($num) {
     $c1 = "零壹贰叁肆伍陆柒捌玖";
