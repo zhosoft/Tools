@@ -5,7 +5,8 @@
  *
  *
  */
-
+//设置时区
+date_default_timezone_set('asia/shanghai');
 $timestamp = time();//当前时间时间戳
 $now = date('Y-m-d H:i:s');//当前格式化后的时间
 $nowYear = date("Y");// m,d 对应的月份、日
